@@ -2,8 +2,8 @@ import mysql.connector as mc
 
 # connect to database
 conn = mc.connect(
-    host='127.0.0.1',
-    user='root',
+    host='', # add your own host 
+    user='root', 
     password='', # add your own password
 )
 
